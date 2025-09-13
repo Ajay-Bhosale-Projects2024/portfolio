@@ -1,0 +1,56 @@
+﻿
+/* Section Background */
+.colorful-section {
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+}
+
+/* Section Title */
+.section-title {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #4b0082; /* Indigo */
+}
+
+/* Cards */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+}
+
+    .hover-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+/* Card Header Title */
+.card-header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Education Card Specific */
+.edu-card {
+    border-top: 5px solid #6a11cb;
+}
+
+/* Experience Card Specific */
+.exp-card {
+    border-top: 5px solid #ff7eb3;
+}
+
+/* Typography */
+h5 {
+    color: #333;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #555;
+}

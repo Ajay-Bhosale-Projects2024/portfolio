@@ -1,0 +1,68 @@
+﻿/* Section background */
+.colorful-projects {
+    background: linear-gradient(135deg, #fdfbfb, #ebedee); /* Soft grayish background */
+}
+
+/* Title styling */
+.section-title {
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff); /* Aqua to blue gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Project card styles */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .project-card img {
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .project-card:hover img {
+        transform: scale(1.05);
+    }
+
+    .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    }
+
+/* New vibrant card colors */
+.project-1 {
+    background: #E67E22; /* Pink to peach */
+    color: white;
+}
+
+.project-2 {
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb); /* Purple to pink */
+    color: white;
+}
+
+.project-3 {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Aqua to sky blue */
+    color: white;
+}
+
+/* Card title */
+.card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Text inside cards */
+.project-card p {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.text-center mb-5 section-title {
+    color: orangered;
+}

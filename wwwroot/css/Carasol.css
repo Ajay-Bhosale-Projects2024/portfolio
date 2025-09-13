@@ -1,0 +1,29 @@
+﻿
+
+/* Ensure carousel images cover the area */
+.carousel-img {
+    object-fit: cover;
+    height: 60vh; /* Adjust height as needed */
+}
+
+/* Responsive caption text */
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+

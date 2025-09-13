@@ -1,0 +1,119 @@
+﻿/* ===== NAVBAR STYLING ===== */
+.custom-navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); /* Deep Blue-Teal Gradient */
+    padding: 0.8rem 1rem;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+    /* Brand Styling */
+    .custom-navbar .navbar-brand {
+        color: #ffffff !important;
+        font-weight: 800;
+        font-size: 1.6rem;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+        .custom-navbar .navbar-brand:hover {
+            transform: scale(1.1);
+            color: #00e0ff !important; /* Cyan Hover */
+        }
+
+    /* Navbar Links */
+    .custom-navbar .nav-link {
+        color: #e0e0e0 !important;
+        font-weight: 500;
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        position: relative;
+        transition: color 0.3s ease-in-out;
+    }
+
+        .custom-navbar .nav-link:hover {
+            color: #00e0ff !important; /* Cyan Hover */
+        }
+
+        .custom-navbar .nav-link::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #00e0ff;
+            transition: width 0.3s;
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+        }
+
+        .custom-navbar .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .custom-navbar .nav-link.active {
+            color: #ffeb3b !important; /* Yellow Active Link */
+            font-weight: bold;
+        }
+
+/* ===== OFFCANVAS MENU (Glass Effect) ===== */
+.offcanvas {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Half-width Offcanvas for Mobile */
+.offcanvas.offcanvas-end {
+    width: 60% !important;
+}
+
+/* Offcanvas Header */
+.offcanvas .offcanvas-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #00e0ff;
+    text-transform: uppercase;
+}
+
+/* Offcanvas Links */
+.offcanvas .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+    .offcanvas .nav-link:hover {
+        color: #00e0ff !important;
+    }
+
+/* Close Button */
+.offcanvas-header .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+/* ===== NAVBAR TOGGLER ===== */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
