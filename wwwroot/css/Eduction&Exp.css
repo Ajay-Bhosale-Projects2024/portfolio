@@ -25,12 +25,23 @@
     }
 
 /* Card Header Title */
+/*.card-header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);*/
+    /*background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;
+}*/
+
 .card-header-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
-    background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);
-    /*background-clip: text;*/
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Chrome/Safari */
+    color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
