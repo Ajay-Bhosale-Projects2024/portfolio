@@ -8,7 +8,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     background: linear-gradient(45deg, #00c6ff, #0072ff); /* Aqua to blue gradient */
-    /*-webkit-background-clip: text;*/
+    webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
