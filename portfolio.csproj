@@ -10,4 +10,8 @@
     <Folder Include="wwwroot\NewFolder\NewFolder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.8" />
+  </ItemGroup>
+
 </Project>
