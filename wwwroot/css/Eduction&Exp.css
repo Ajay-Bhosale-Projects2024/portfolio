@@ -5,11 +5,39 @@
 }
 
 /* Section Title */
-.section-title {
+/*.section-title {
     font-weight: bold;
     letter-spacing: 1px;
-    color: #4b0082; /* Indigo */
+    color: #4b0082;*/ /* Indigo */
+/*}*/
+
+/*.section-title {
+    background: none !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: darkgoldenrod;
+    text-transform: uppercase;
 }
+*/
+
+.section-title h2 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    color: #222; /* Dark text */
+    background: white; /* Actual background */
+    border: 3px solid transparent;
+    border-radius: 12px;
+    background-image: linear-gradient(white, white), linear-gradient(90deg, #00c6ff, #0072ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box; /* Fixes text visibility */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+}
+
 
 /* Cards */
 .hover-card {
@@ -30,7 +58,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
