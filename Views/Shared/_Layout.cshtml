@@ -93,6 +93,7 @@
             filter: drop-shadow(0px 0px 3px black);
         }
 
+        
 
     </style>
 </head>
@@ -128,7 +129,7 @@
 
 
     <!-- Main Content -->
-    <main role="main" class="pb-3">
+    <main role="main">
         @RenderBody()
     </main>
 
@@ -139,8 +140,8 @@
 
 
     <!-- Footer Start -->
-    <footer class="bg-dark text-white pt-5 pb-3" style=" margin-bottom:0px;padding-bottom:0px; width:100%;">
-        <div class="container text-center" style="margin:0px">
+    <footer class="bg-dark text-white pt-5 pb-3" style=" margin-bottom:0px;padding-bottom:0px; width:100%;text-align:center">
+        <div class="container text-center" style="margin:0px;text-align:center">
 
             <!-- Footer Links -->
             <div class="mb-3">
@@ -159,7 +160,8 @@
                 <a href="#" class="text-white mx-2 fs-5"><i class="bi bi-twitter"></i></a>                
             </div>
 
-            <hr class="border-light">
+            <hr class="border-light mx-auto" style="width: 50%;">
+
 
             <!-- Copyright -->
             @{int currentYear = DateTime.Now.Year;}

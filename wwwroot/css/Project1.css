@@ -37,7 +37,8 @@
 
 /* New vibrant card colors */
 .project-1 {
-    background: #E67E22; /* Pink to peach */
+    /* Pink to peach */
+    background: #E67E22;
     color: white;
 }
 
