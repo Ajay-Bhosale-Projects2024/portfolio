@@ -38,7 +38,7 @@
 /* New vibrant card colors */
 .project-1 {
     /* Pink to peach */
-    background: #E67E22;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
     color: white;
 }
 
@@ -49,6 +49,8 @@
 
 .project-3 {
     background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Aqua to sky blue */
+
+    
     color: white;
 }
 
